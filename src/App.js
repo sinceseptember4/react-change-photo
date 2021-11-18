@@ -1,24 +1,78 @@
-import logo from './logo.svg';
-import './App.css';
-
+import changephoto from './changephoto';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <changephoto>
+        <ul>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+        </ul>
+    </changephoto>
+    <changephoto>
+        <ul>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+            <li><a><img src="images/photo2.jpeg"/></a></li>
+        </ul>
+    </changephoto>
+    <changephoto>
+        <ul>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+            <li><a><img src="images/photo2.jpeg"/></a></li>
+            <li><a><img src="images/photo3.jpeg"/></a></li>
+
+        </ul>
+    </changephoto>
+    <div class="change-photo default">
+        <ul>
+            <li><a><img src="images/images.jpeg"/></a></li>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+            <li><a><img src="images/photo2.jpeg"/></a></li>
+        </ul>
     </div>
+
+
+    <div class="change-photo default">
+        <ul>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+            <li><a><img src="images/photo2.jpeg"/></a></li>
+            <li><a><img src="images/photo3.jpeg"/></a></li>
+            <li><a><img src="images/photo4.jpeg"/></a></li>
+
+        </ul>
+    </div>
+    <div class="change-photo default">
+        <ul>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+            <li><a><img src="images/photo2.jpeg"/></a></li>
+            <li><a><img src="images/photo3.jpeg"/></a></li>
+            <li><a><img src="images/photo4.jpeg"/></a></li>
+            <li><a><img src="images/photo5.jpeg"/></a></li>
+
+        </ul>
+    </div>        
+    <div class="change-photo default">
+        <ul>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+            <li><a><img src="images/photo2.jpeg"/></a></li>
+            <li><a><img src="images/photo3.jpeg"/></a></li>
+            <li><a><img src="images/photo4.jpeg"/></a></li>
+            <li><a><img src="images/photo5.jpeg"/></a></li>
+            <li><a><img src="images/photo6.jpeg"/></a></li>
+
+        </ul>
+    </div>
+    <div class="change-photo default">
+        <ul>
+            <li><a><img src="images/photo1.jpeg"/></a></li>
+            <li><a><img src="images/photo2.jpeg"/></a></li>
+            <li><a><img src="images/photo3.jpeg"/></a></li>
+            <li><a><img src="images/photo4.jpeg"/></a></li>
+            <li><a><img src="images/photo5.jpeg"/></a></li>
+            <li><a><img src="images/photo6.jpeg"/></a></li>
+            <li><a><img src="images/images.jpeg"/></a></li>
+        </ul>
+    </div>
+    </>
+
   );
 }
 
